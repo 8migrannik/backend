@@ -36,10 +36,5 @@ namespace ScrumBoard.Forms
 
             this.Close();
         }
-
-        private void MoveTask_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

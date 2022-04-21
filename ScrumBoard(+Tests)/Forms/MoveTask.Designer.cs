@@ -78,19 +78,11 @@ namespace ScrumBoard.Forms
             // priorUpDown
             // 
             this.priorUpDown.Location = new System.Drawing.Point(12, 127);
-            this.priorUpDown.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
+            this.priorUpDown.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
             this.priorUpDown.Name = "priorUpDown";
             this.priorUpDown.Size = new System.Drawing.Size(57, 22);
             this.priorUpDown.TabIndex = 5;
-            this.priorUpDown.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
+            this.priorUpDown.Value = new decimal(new int[] { 1, 0, 0, 0 });
             // 
             // taskNameBtn
             // 
@@ -139,11 +131,9 @@ namespace ScrumBoard.Forms
             this.Controls.Add(this.taskNameBtn);
             this.Name = "MoveTask";
             this.Text = "MoveTask";
-            this.Load += new System.EventHandler(this.MoveTask_Load);
             ((System.ComponentModel.ISupportInitialize)(this.priorUpDown)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
 
         private System.Windows.Forms.Label colFromNameLabel;
